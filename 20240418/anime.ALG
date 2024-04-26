@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "anime battle"
 
 Var
 nome:vetor[0..1]de caracter
@@ -25,9 +25,9 @@ escreva( "Digite o nivel (numero) de poder do segundo personagem:")
 leia(poder[1])
  escreval("-------------------------------------------------------")
  se poder[0] > poder[1]entao
-    escreval(nome[0],  " tem ", poder[0]," E é mais poderoso que ", nome[1])
+    escreval(nome[0],  " tem ", poder[0]," E Ã© mais poderoso que ", nome[1])
  senao
-     escreval (nome[1], " E é mais poderoso que ", nome[0])
+     escreval (nome[1], " E Ã© mais poderoso que ", nome[0])
  fimse
 
 Fimalgoritmo
